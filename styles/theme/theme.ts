@@ -3,7 +3,7 @@ import { createTheme } from "@mui/material";
 export const theme = createTheme({
   palette: {
     primary: {
-      main: "#406080",
+      main: "#d7e9ff",
       light: "#3c3c3c"
     },
     secondary: {
@@ -14,9 +14,8 @@ export const theme = createTheme({
       main: "#ff2f93"
     },
     info: {
-      main: "#6c6c6c"
-    },
-
+      main: "#6c6c6c",
+    }
   },
   typography: {
     fontFamily: `'Noto Sans KR', sans-serif`

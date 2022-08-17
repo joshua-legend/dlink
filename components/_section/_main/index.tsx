@@ -9,7 +9,6 @@ const baseLayout = ({children}:IBaseLayout) => {
     return (
         <Container>
 
-
         </Container>
     );
 };
