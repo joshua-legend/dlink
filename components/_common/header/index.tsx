@@ -5,11 +5,11 @@ const Header = () => {
         <>
             <Box sx={{ flexGrow: 1 }}>
                 <AppBar position="sticky" color={"primary"}>
-                    <Toolbar  >
-                        <IconButton sx={{ mr: 3 }}>
+                    <Toolbar >
+                        <IconButton>
                             <PetsIcon color={"warning"} />
                         </IconButton>
-                        <Typography variant="h6"  sx={{ flexGrow: 1 }}>Digital Link</Typography>
+                        <Typography variant="h6">Digital Link</Typography>
                         <Button color="inherit">Login</Button>
                     </Toolbar>
                 </AppBar>
