@@ -1,12 +1,11 @@
 import {ReactElement, ReactNode} from "react";
 import Header from "../../_common/header"
-import Footer from "../../_common/footer";
 
 interface IBaseLayout {
     children: ReactNode | ReactElement;
 }
 
-const baseLayout = ({children}:IBaseLayout) => {
+const defaultLayout = ({children}:IBaseLayout) => {
     return (
         <>
             <Header />
@@ -15,4 +14,4 @@ const baseLayout = ({children}:IBaseLayout) => {
         </>
     );
 };
-export default baseLayout;
+export default defaultLayout;
