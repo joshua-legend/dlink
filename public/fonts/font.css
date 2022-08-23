@@ -6,3 +6,8 @@
     font-family: "Agro";
     src: url('agro.woff') format('woff');
 }
+@font-face {
+    font-family: "Prentendard";
+    src: url('pretendard.woff') format('woff');
+}
+@import url(//font.elice.io/EliceDigitalBaeum.css);

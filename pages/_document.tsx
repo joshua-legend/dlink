@@ -11,6 +11,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
             <link rel="stylesheet" as="style" type="text/css" href="/fonts/font.css" />
+            <link href="//font.elice.io/EliceDigitalBaeum.css" rel="stylesheet" />
         </Head>
         <body>
         <Main />

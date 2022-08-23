@@ -4,13 +4,13 @@ import React from "react";
 const Header = () => {
     return (
         <AppBar position="sticky">
-            <Toolbar sx={{display:"flex",width:"50%",margin:"auto"}} >
+            <Toolbar sx={{display:"flex",width:"50%",margin:"auto",justifyContent:"space-between"}} >
                 <Typography sx={{fontFamily:"Agro"}}>제이라인</Typography>
-                <Button color={"info"} >ABOUT</Button>
-                <Button color={"info"} >RESERVATION</Button>
-                <Button color={"info"} >PRICE</Button>
-                <Button color={"info"} >EVENT</Button>
-                <Button color={"info"} >REVIEW</Button>
+                <Button color={"info"} >Home</Button>
+                <Button color={"info"} >Price</Button>
+                <Button color={"info"} >Gallery</Button>
+                <Button color={"info"} >Map</Button>
+                <Button color={"info"} >Reservation</Button>
             </Toolbar>
         </AppBar>
     );
